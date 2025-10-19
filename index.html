@@ -108,21 +108,13 @@ title: "Home"
 
         <p>Here's our adventure map:</p>
 
-        <p>
-          -
-          <a href="/modules/01-introduction/"
-            ><strong>Module 1: Introduction</strong></a
-          >
-        </p>
+        <ul class="module-list">
+          {% assign sorted = site.modules | sort: 'title' %} {% for m in sorted
+          %}
+          <li><a href="{{ m.url | relative_url }}">{{ m.title }}</a></li>
+          {% endfor %}
+        </ul>
 
-        <p>
-          -
-          <a href="/modules/02-python-basics/"
-            ><strong>Module 2: Python Basics</strong></a
-          >
-        </p>
-
-       
         <p>
           By the end of this journey, you won't just know
           <em><strong>how</strong></em> to write automation scripts. You'll
