@@ -125,6 +125,7 @@ In order of making this course the most unique and personal experience please fo
 In [our](https://github.com/leonardespi/automation-bootcamp) repository, click **“Code → Codespaces → New Codespace”**.
 GitHub will spin up a Linux-based environment in the cloud—with VS Code, terminal, and Python ready.
 
+---
 
 ### Step 1 — Launch Your Codespace
 
