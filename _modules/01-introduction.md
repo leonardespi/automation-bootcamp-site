@@ -7,7 +7,7 @@ permalink: /modules/01-introduction/
 
 Welcome to your very first step in the world of **test automation**!
 
-If you’ve been living in the kingdom of **manual testing**—clicking buttons, filling forms, and jotting down observations—get ready. Because now, you’re about to become the **architect of invisible hands** that do all those actions for you, flawlessly, tirelessly, and predictably.
+If you’ve been living in the kingdom of **manual testing**, get ready. Because now, you’re about to become the **caster of invisible hands** that do all those actions for you, flawlessly, tirelessly, and predictably.
 
 This is not about *replacing yourself with a robot*. It’s about **amplifying your impact**. Automation lets you multiply your testing superpowers—faster releases, fewer regressions, more confidence.
 
@@ -118,18 +118,28 @@ In this part, we’ll walk through setting up your automation environment in a *
 
 ---
 
+### Step 0 — Fork the repository
+
+In order of making this course the most unique and personal experience please fork the repository to your github account (this is like buying your read to build sandbox at the market and have it delivered to your front door.) 
+
+In [our](https://github.com/leonardespi/automation-bootcamp) repository, click **“Code → Codespaces → New Codespace”**.
+GitHub will spin up a Linux-based environment in the cloud—with VS Code, terminal, and Python ready.
+
+
 ### Step 1 — Launch Your Codespace
 
 Think of a Codespace as a **ready-to-cook meal kit**: all the ingredients pre-measured, tools laid out, and instructions clear.
 
-In your repository, click **“Code → Codespaces → New Codespace”**.
-GitHub will spin up a Linux-based environment in the cloud—with VS Code, terminal, and Python ready.
+In [our](https://github.com/leonardespi/automation-bootcamp) repository, click on **“Quickstart → → Fork me”**.
+Alternatively you can click [this](https://github.com/leonardespi/qa-automation-bootcamp/fork) link as well. 
+
+*If you don't have a github account you can check this link [here](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)*
 
 ---
 
 ### Step 2 — Install Dependencies
 
-Once inside, open your terminal and run:
+Once inside your forked repository (you'll know its yours because in the repo name will appear like this: <YOUR-USERNAME>/automation-bootcamp), open the vs code terminal and run:
 
 ```bash
 pip install -r requirements.txt
