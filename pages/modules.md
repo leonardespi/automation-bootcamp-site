@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Modules"
+title: "Modules | Automation Learn"
 permalink: /modules/
 ---
 
