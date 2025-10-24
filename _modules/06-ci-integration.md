@@ -1,6 +1,6 @@
 ---
 layout: module
-title: "06 Ci Integration"
+title: "06 CI Integrations"
 permalink: /modules/06-ci-integration/
 ---
 

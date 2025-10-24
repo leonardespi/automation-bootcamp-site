@@ -1,7 +1,7 @@
 ---
 layout: module
-title: "02 Python Basics"
-permalink: /modules/02-python-basics/
+title: "03 GenAi Applications"
+permalink: /modules/03-genai-applications/
 ---
 
 # Module 2 — Python Basics for Testers
